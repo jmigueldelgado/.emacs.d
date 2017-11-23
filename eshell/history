@@ -1,0 +1,39 @@
+cd ..
+cd parameters/
+ls
+ls
+cd ..
+ls
+cd sa
+ls
+cd s1a_scenes/
+ls
+cd ..
+ls
+cd modules/
+ls
+mv speckle_filtring.xml ../parameters/speckle_filtering.xml
+ls
+cd ..
+cd parameters/
+ls
+cd ..
+cd ..
+git add
+git add .
+git commit -m "imports hashmap from xml parameter file from snap"
+git push
+cd ..
+git add .
+git commit -m "finishes workflow, still needs proper ProductIO at the end"
+git push
+exit
+cd ..
+git add .
+git commit -m "introduces subset by coordinates in WKT"
+git push
+exit
+cd ..
+git add .
+git commit -m "functioning version for cluster"
+git push

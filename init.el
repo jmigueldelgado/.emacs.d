@@ -58,3 +58,5 @@
 (setq compilation-read-command nil)
 ;;show matching parentheses
 (show-paren-mode 1)
+
+(setq python-python-command "~/local/miniconda2/bin/python2")
