@@ -59,4 +59,5 @@
 ;;show matching parentheses
 (show-paren-mode 1)
 
+(setq python-version-checked t)
 (setq python-python-command "~/local/miniconda2/bin/python2")
